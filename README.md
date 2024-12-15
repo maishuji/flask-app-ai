@@ -1,11 +1,16 @@
-# Flask Hello World Application
+# Flask AI Project with IBM Watson Libraries  
 
-This is a basic "Hello, World!" web application built with Flask, a lightweight web framework for Python.
+This project is focused on integrating AI functionality into web applications using Embeddable Watson AI libraries. 
+## Goal
+ - build two AI-based apps
+ - learn essential practices like unit testing, static code analysis, and error handling. 
 
 ## Requirements
 
 - Python 3.7 or higher
 - pip (Python package manager)
+- Flask 2.x (installation through requirements.txt)
+- IBM Watson SDK
 
 ## Installation
 
@@ -13,6 +18,14 @@ After having cloned the repository, install the dependencies using :
 ```bash
 pip install -r requirements.txt
 ```
+
+## Set up IBM Watson API credentials
+Add your credentials to an ```.env``` file at the root of the project
+```bash
+WATSON_API_KEY=your-api-key  
+WATSON_URL=your-service-url  
+```
+
 
 ## Usage
 
@@ -30,4 +43,4 @@ curl -X GET -i -w '\n' localhost:5000
 
 ## License
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the Apache License. See the LICENSE file for details.
