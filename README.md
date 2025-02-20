@@ -12,9 +12,22 @@ This project is focused on integrating AI functionality into web applications us
 - Flask 2.x (installation through requirements.txt)
 - IBM Watson SDK
 
+
+
+
 ## Installation
 
-After having cloned the repository, install the dependencies using :
+
+
+After having cloned the repository, create and activate python env:
+
+```bash
+python -m venv <myenv>
+source ./<myenv>/bin/activate
+
+```
+THen install the dependencies:
+
 ```bash
 pip install -r requirements.txt
 ```

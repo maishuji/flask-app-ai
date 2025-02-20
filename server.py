@@ -2,10 +2,10 @@
     analysis to be executed over the Flask channel and deployed on
     localhost:5000.
 '''
-# Import Flask, render_template, request from the flask pramework package : DONE
+# Import Flask, render_template, request from the flask pramework package
 from flask import Flask, render_template, request
-# Import the sentiment_analyzer function from the package created: DONE
-from SentimentAnalysis.sentiment_analysis import sentiment_analyser
+# Import the sentiment_analyzer function from the package created
+from SentimentAnalysis.sentiment_analysis import sentiment_analyzer
 #from ibm_cloud_sdk_core.authenticators import IAMAuthenticator
 import os
 from dotenv import load_dotenv
@@ -13,7 +13,7 @@ from dotenv import load_dotenv
 # Load env variables from .env
 load_dotenv()
 
-#Initiate the flask app : DONE
+#Initiate the flask app
 app = Flask(__name__)
 
 # Configure IBM Watson API
