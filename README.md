@@ -17,17 +17,12 @@ This project is focused on integrating AI functionality into web applications us
 
 ## Installation
 
-
-
-After having cloned the repository, create and activate python env:
-
+Create and activate a virtual environment using the following commands:
 ```bash
-python -m venv <myenv>
-source ./<myenv>/bin/activate
-
+python -m venv venv
+source venv/bin/activate
 ```
-THen install the dependencies:
-
+Install the dependencies using :
 ```bash
 pip install -r requirements.txt
 ```
