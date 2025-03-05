@@ -27,7 +27,7 @@ API_URL = os.getenv("WATSON_URL")
 #authenticator = IAMAuthenticator(API_KEY)
 
 @app.route("/sentimentAnalyzer")
-def sent_analyzer():
+def sent_analyser():
     ''' This code receives the text from the HTML interface and 
         runs sentiment analysis over it using sentiment_analysis()
         function. The output returned shows the label and its confidence 
@@ -36,8 +36,8 @@ def sent_analyzer():
     # DONE
     # Retrieve the text to analyze from the request arguments
     text_to_analyze = request.args.get('textToAnalyze')
-    # Pass the text to the sentiment_analyzer function and store the response
-    response = sentiment_analyzer(text_to_analyze)
+    # Pass the text to the sentiment_analyser function and store the response
+    response = sentiment_analyser(text_to_analyze)
     # Extract the label and score from the response
     label = response['label']
     score = response['score']

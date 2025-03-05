@@ -6,7 +6,7 @@
 import json
 import requests
 
-def sentiment_analyzer(text_to_analyse):
+def sentiment_analyser(text_to_analyse):
     """
     Analyzes the sentiment of the given text using the Watson Sentiment BERT API.
 
